@@ -1,3 +1,7 @@
+import Allinonepractice
+
+
+
 #1 List is always ordered
 #2 A list is changeable
 #3 A list allows duplicates
@@ -14,3 +18,7 @@ print(midtermGrades)
 
 #4
 print(len(midtermGrades))
+
+
+#This imported user defined function from the another file.
+Allinonepractice.myfunction2(midtermGrades[0],midtermGrades[1],combinedlist[5])
